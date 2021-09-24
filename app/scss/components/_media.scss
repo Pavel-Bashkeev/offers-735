@@ -9,6 +9,43 @@
 }
 
 @media (max-width:420px) {
+  .hero-descr__box-inner {
+    padding: 19px 8px;
+  }
+
+  .talk-present__text--right {
+    right: 5px;
+  }
+
+  .talk-present__text--left {
+    left: 10px;
+  }
+
+  .talk-present__info--descr-one {
+    right: 19%;
+  }
+
+  .talk-present__info--descr-two {
+    bottom: 26%;
+    left: 26%;
+  }
+
+  .talk-present__info {
+    font: 400 14px/18px "Open Sans";
+  }
+
+  .talk-present__product {
+    width: 70px;
+    right: 3%;
+    bottom: 25%;
+  }
+
+  .talk-present__list {
+    width: 208px;
+    left: 52%;
+    bottom: 4%;
+  }
+
   .certificate {
     min-height: 590px;
   }
@@ -19,7 +56,7 @@
 
   .form__btn {
     height: 35px;
-    font: 700 20px/38px "Myriad Pro";
+    font: 700 20px/38px "Roboto";
   }
 
   .certificate__text {
@@ -29,19 +66,16 @@
   }
 
   .certificate__item {
-    margin-left: -20px;
+    font: 400 13px/13px $font;
   }
 
   .certificate__offer {
     max-width: 310px;
+    margin-bottom: 37px;
   }
 
-  .causes__items {
-    min-height: 290px;
-  }
-
-  .causes__item {
-    padding-left: 85px;
+  .certificate__discount {
+    font: 400 15px/20px Roboto;
   }
 }
 
@@ -57,82 +91,266 @@
 
 @media (max-width:375px) {
   .certificate {
-    min-height: 530px
-  }
-
-  .certificate__offer {
-    max-width: 264px;
-    padding: 0 9px;
-    text-align: center;
-    font: 400 14px/16px "Myriad Pro";
-    margin-bottom: 48px;
-    margin-top: 11px
+    min-height: 549px;
   }
 
   .certificate__text {
-    border: 1px solid #000;
-    padding: 5px 6px;
-    max-width: 280px;
-    font: 400 14px/14px "Myriad Pro";
-    text-align: center;
-    margin-bottom: 17px
+    max-width: 320px;
+    margin-bottom: 15px;
+    padding: 5px 3px;
+    font: 400 13px/14px Roboto;
+  }
+
+  .certificate__offer {
+    margin-bottom: 25px;
   }
 
   .certificate__discount {
-    font: 400 13px/16px "Myriad Pro";
-    width: 200px;
+    width: 150px;
+  }
+
+  .comments-slider {
+    background-color: #f6f7f9;
+    padding: 26px 9px 38px;
+  }
+
+  .comments-answer {
+    margin-left: 8%;
+  }
+
+  .talk-present__product {
+    width: 65px;
+    right: 10px;
+    bottom: 29%;
+  }
+
+  .talk-present__img--bottom {
+    margin-top: 22px;
+  }
+
+  .talk-present__info {
+    font: 400 13px/15px "Open Sans";
+  }
+
+  .talk-present__info--descr-one {
+    right: 18%;
+  }
+
+  .talk-present__info--descr-two {
+    bottom: 29%;
+    left: 25%;
+    background-color: #fff;
+  }
+
+  .talk-present__text {
+    max-width: 105px;
+    font: 400 15px/19px Roboto;
     text-align: center;
-    margin-bottom: 0;
-    margin-left: -50px
   }
 
-  .certificate__title {
-    font: 700 20px/36px "Myriad Pro";
-    margin-bottom: 0;
-    margin-top: auto
+  .talk-present__text--right {
+    right: 0px;
   }
 
-  .certificate__item {
-    color: #2356db;
-    font: 400 13px/20px "Myriad Pro";
-    margin-bottom: 10px
-  }
-
-  .causes__item {
-    padding-left: 70px;
-
-    &:last-child {
-      padding-left: 10px;
-    }
-
-
-  }
-
-  .causes__item-text--accent {
-
-    transform: translateX(0px);
-  }
-  .answer-table__list-item::before {
-    top: 0;
+  .talk-present__text--left {
     left: 0px;
-}
-.answer-table__list-item {
-  padding-left: 21px;
-  font: 400 15px/20px "Myriad Pro";
-  padding-right: 2px;
-  position: relative;
-}
+  }
+
+  .hero-descr__box-text {
+    font: 400 18px/24px Roboto;
+  }
+
+  .talk-question__text {
+    padding-right: 0px;
+  }
 }
 
 @media (max-width: 360px) {
+  .certificate {
+    min-height: 534px;
+  }
+
+  .certificate__text {
+    max-width: 290px;
+    margin-bottom: 5px;
+    padding: 5px 3px;
+    font: 400 13px/14px Roboto;
+  }
+
+  .order .order-info__price--current {
+    margin-bottom: 5px;
+  }
+
   .comment-actions__btn {
     font: 700 14px/19px Roboto;
   }
+
+  .talk-present__text--right {
+    bottom: 45%;
+  }
+
+  .talk-present__info--descr-one {
+    right: 17%;
+  }
+
+  .talk-present__img--bottom {
+    margin-top: 44px;
+  }
+
+  .talk-present__list {
+    width: 207px;
+    left: 55%;
+    bottom: 4%;
+  }
+
+  .talk-present__product {
+    width: 65px;
+    right: 6px;
+    bottom: 32%;
+  }
+
+  .certificate__discount {
+    font: 400 15px/16px Roboto;
+  }
+
+  .certificate__item {
+    margin-bottom: 6px;
+  }
 }
 
-@media (max-width:350px) {
+@media (max-width:320px) {
+  body {
+    font: 400 18px / 22px $font;
+  }
 
-  .comments {
-    padding: 37px 5px 100px;
+  .container {
+    padding: 0 5px;
+  }
+
+  .hero-box__title {
+    font: 700 18px/18px Roboto;
+  }
+
+  .hero-box__decor {
+    left: 31%;
+    bottom: 9%;
+  }
+
+  .hero-descr {
+    padding: 20px 0px;
+  }
+
+  .hero-descr__text {
+    font: 400 18px/23px Roboto;
+  }
+
+  .hero-descr__box-text {
+    font: 400 15px/20px Roboto;
+  }
+
+  .hero-descr__box {
+    margin-bottom: 20px;
+  }
+
+  .talk-question__text {
+    margin-bottom: 20px;
+    padding-left: 0px;
+  }
+
+  .talk-answer__text {
+    margin-bottom: 20px;
+    padding-right: 0px;
+  }
+
+  .hero-descr__box-inner {
+    padding: 19px 10px;
+  }
+
+  .talk-present__text {
+    max-width: 90px;
+    font: 400 13px/14px Roboto;
+  }
+
+  .talk-present {
+    margin-bottom: 20px;
+  }
+
+  .talk-present__info {
+    font: 400 12px/12px "Open Sans";
+  }
+
+  .talk-present__info--descr-one {
+    right: 15%;
+  }
+
+  .talk-present__list {
+    width: 242px;
+    left: 41%;
+    bottom: 5%;
+    background-color: #fff;
+  }
+
+  .talk-present__product {
+    width: 65px;
+    right: 6px;
+    bottom: 25%;
+  }
+
+  .talk-present__list-item {
+    font: 400 12px/14px Roboto;
+    position: relative;
+    padding-left: 10px;
+
+    &::before {
+      left: 0px;
+    }
+  }
+
+  .certificate__text {
+    max-width: 268px;
+    margin-bottom: 5px;
+    padding: 5px 0px;
+    font: 400 11px/11px Roboto;
+  }
+
+  .certificate {
+    min-height: 474px;
+  }
+
+  .order .order-info__price--current {
+    font: 700 20px/25px Lato, Roboto;
+    margin-bottom: 0px;
+  }
+
+  .order .order-info__price--old {
+    font: 400 16px/18px Lato, Roboto;
+    margin-bottom: 0px;
+  }
+
+  .certificate__item {
+    margin-bottom: 4px;
+  }
+
+  .certificate__title {
+    font: 700 17px/22px Roboto;
+    margin-bottom: 0px;
+    margin-top: auto;
+  }
+
+  .certificate__discount {
+    width: 130px;
+    font: 400 13px/16px Roboto;
+  }
+
+  .swiper-pagination {
+    bottom: 40px;
+  }
+
+  .swiper-btn-next {
+    right: 20%;
+  }
+
+  .swiper-btn-prev {
+    left: 20%;
   }
 }

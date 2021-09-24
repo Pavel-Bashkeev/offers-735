@@ -89,7 +89,9 @@ function imagesSvgSprite() {
 }
 // Работа со шрифтами
 function fonts() {
+       del('./app/fonts/**/*')
        src('./fontsSrc/**.ttf')
+              .pipe(dest('./app/fonts/'))
               .pipe(ttf2woff())
               .pipe(dest('./app/fonts/'))
        return src('./fontsSrc/**.ttf')

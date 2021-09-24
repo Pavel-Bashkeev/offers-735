@@ -5,6 +5,7 @@
     font: 900 25px / 32px $font;
     color: $black;
     margin-bottom: 35px;
+    text-transform: uppercase;
     &--under{
       border-bottom: 1px solid $black;
     }
@@ -23,7 +24,7 @@
   z-index: 1;
 
   &__decor {
-    left: 30%;
+    left: 32%;
     bottom: 10%;
     z-index: 1;
     width: fit-content;
@@ -54,7 +55,7 @@
     margin: 0 auto;
     margin-bottom: 35px;
     &-inner{
-      padding: 19px 26px;
+      padding: 19px 41px;
       background-color: #004507;
       margin-top: -1px;
       position: relative;
